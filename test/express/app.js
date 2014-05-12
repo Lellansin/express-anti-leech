@@ -5,7 +5,6 @@ var express = require('express'),
 
 var AntiLeech = require('../../');
 
-
 app.use(AntiLeech());
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('port', process.env.PORT || 8004);
@@ -14,6 +13,6 @@ app.get('/', function(req, res) {
   res.redirect("/index.html");
 });
 
-http.createServer(app).listen(app.get('port'), function() {
-  console.log("Express server listening on port " + app.get('port'));
+app.listen(app.get('port'), function() {
+  console.log("Express test server listening on http://localhost:" + app.get('port'));
 });
