@@ -1,15 +1,15 @@
 {
-  "name": "express-anti-leech",
+  "name": "express-anti-leech-test",
   "version": "0.0.0",
-  "description": "Anti leech middleware for express",
-  "main": "index.js",
+  "description": "Anti leech example with express",
+  "main": "app.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "cd ./test/express && npm test"
+    "test": "npm install && node app"
   },
   "repository": {
     "type": "git",
