@@ -1,0 +1,29 @@
+{
+  "name": "express-anti-leech",
+  "version": "0.0.0",
+  "description": "anti leech middleware for express",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "connect-session": "~0.0.1",
+    "express": "~4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lellansin/express-anti-leech.git"
+  },
+  "keywords": [
+    "anti-leech"
+  ],
+  "author": "lellansin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lellansin/express-anti-leech/issues"
+  }
+}
