@@ -6,10 +6,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "connect-session": "~0.0.1",
-    "express": "~4.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "npm test"
