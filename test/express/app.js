@@ -4,11 +4,8 @@ var express = require('express'),
 
 var AntiLeech = require('../../');
 
-// white list, key:host, value:[ip, ...]
-var hosts = {
-	'localhost': ['127.0.0.1'],
-	'localhost:8004': ['*']
-};
+// white list
+var hosts = ['localhost', 'localhost:8004'];
 
 // extension filter list
 var exts = ['.png', '.jpg', '.jpeg', '.gif', '.swf', '.flv'];
