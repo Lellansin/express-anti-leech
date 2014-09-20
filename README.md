@@ -22,7 +22,7 @@ Example
       path = require('path'),
       app = express();
     
-    var AntiLeech = require('anti-leech');
+    var AntiLeech = require('express-anti-leech');
     
     // white list, key:host, value:[ip, ...]
     var hosts = {
