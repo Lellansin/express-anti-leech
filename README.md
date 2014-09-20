@@ -24,7 +24,7 @@ Example
     
     var AntiLeech = require('express-anti-leech');
     
-    // white list, key:host, value:[ip, ...]
+    // white list
     var hosts = ['localhost', 'localhost:8004'];
     
     // filter type
