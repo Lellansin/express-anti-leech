@@ -13,7 +13,7 @@ http://en.wikipedia.org/wiki/Leech_(computing)
 
 Install
 -----------
-<code>npm install anti-leech</code>
+<code>npm install express-anti-leech</code>
 
 Example
 -----------
