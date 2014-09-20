@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "~4.9.4"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "npm install && node app"
