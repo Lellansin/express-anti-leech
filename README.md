@@ -22,7 +22,7 @@ Usage
 	  path = require('path'),
 	  app = express();
 	  
-	var AntiLeech = require('../../');
+	var AntiLeech = require('anti-leech');
 	
 	// white list
 	var hosts = ['localhost:3001', 'localhost:8004', 'localhost'];
