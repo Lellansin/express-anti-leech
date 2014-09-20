@@ -25,10 +25,7 @@ Example
     var AntiLeech = require('express-anti-leech');
     
     // white list, key:host, value:[ip, ...]
-    var hosts = {
-      'localhost': ['127.0.0.1'],
-      'localhost:8004': ['*']
-    };
+    var hosts = ['localhost', 'localhost:8004'];
     
     // filter type
     var exts = ['.png', '.jpg', '.jpeg', '.gif', '.swf', '.flv'];
