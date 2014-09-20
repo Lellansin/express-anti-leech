@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "options": "0.0.5"
+  },
   "devDependencies": {
     "express": "~4.9.2"
   },

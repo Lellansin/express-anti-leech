@@ -1,6 +1,6 @@
 {
   "name": "express-anti-leech-test",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Anti leech example with express",
   "main": "app.js",
   "directories": {
