@@ -5,19 +5,22 @@ var express = require('express'),
 var AntiLeech = require('../../');
 
 // white list
-var hosts = ['localhost:3001', 'localhost:8004', 'localhost'];
+var hosts = {
+	'localhost': ['127.0.0.1'],
+	'localhost:8004': ['*']
+};
 
-// filter type
+// extension filter list
 var exts = ['.png', '.jpg', '.jpeg', '.gif', '.swf', '.flv'];
 
-// default show picture
-var pictrue = "/images/default.png";
+// default redirect url
+var url = "/images/default.png";
 
 app.use(AntiLeech({
   allow: hosts,
   exts: exts,
   log: console.log, // you can use your own
-  default: pictrue
+  default: url
 }));
 
 // keep AntiLeech before use static

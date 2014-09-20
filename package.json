@@ -1,6 +1,6 @@
 {
   "name": "express-anti-leech",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Anti leech middleware for express",
   "main": "index.js",
   "directories": {
