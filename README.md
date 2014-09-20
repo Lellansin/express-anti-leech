@@ -24,7 +24,7 @@ Example
     
     var AntiLeech = require('anti-leech');
     
-    // white list
+    // white list, key:host, value:[ip, ...]
     var hosts = {
       'localhost': ['127.0.0.1'],
       'localhost:8004': ['*']
